@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Elevator Simulation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <main>
+      <section class="elevators">
+        <div class="elevator-with-button">
+          <div class="elevator-button">
+            <div class="icon">
+              <div onClick="moveElevator('down', 2)" class="arrow arrow-down" id="button-down-2">
+              </div>
+            </div>
+          </div>
+          <div class="elevator" id="elevator2">
+            <div class="level-header">Level 2</div>
+          </div>
+        </div>
+        <div class="elevator-with-button">
+          <div class="elevator-button h-30">
+            <div class="icon">
+              <div onClick="moveElevator('up', 1)" class="arrow arrow-up" id="button-up-1">
+              </div>
+            </div>
+            <div class="icon">
+              <div onClick="moveElevator('down', 1)" class="arrow arrow-down" id="button-down-1">
+              </div>
+            </div>
+          </div>
+          <div class="elevator" id="elevator1">
+            <div class="level-header">Level 1</div>
+          </div>
+        </div>
+        <div class="elevator-with-button">
+          <div class="elevator-button">
+            <div class="icon">
+              <div onClick="moveElevator('up', 0)" class="arrow arrow-up" id="button-up-0">
+              </div>
+            </div>
+          </div>
+          <div class="elevator" id="elevator0">
+            <div class="level-header">Level 0 / GL</div>
+            <div id="elevatorImg" class="elevator-main">Elevator</div>
+            <!-- <img src="image/elevator-unsplash.jpg" id="elevatorImg" class="elevator-img"> -->
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer>
+      <small> Sound effects by https://picturetosound.com
+Youtube: https://www.youtube.com/c/picturetosound
+      </small>
+      <br>
+      <small> Elevator image from unsplash
+      </small>
+    </footer>
+    <div>
+      <audio controls id="elevator-music" src="music/elevator.mp3"></audio>
+    </div>
+    <script src="js/elevator.js">
+    </script>
+  </body>
+</html>
