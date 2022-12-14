@@ -1,7 +1,7 @@
 # elevator-html
 A very basic elevator using `HTML`, `CSS`, and `Pure JS`.
 
-### [Click here for Live demo](https://adityashaw.github.io/elevator-html/)
+
 
 ## This Elevator App was created based on an assignment.
 ### The relevant details of which are mentioned below.
