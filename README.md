@@ -1,5 +1,5 @@
-# elevator-html
-A very basic elevator using `HTML`, `CSS`, and `Pure JS`.
+# elevator-control
+very basic elevator using `HTML`, `CSS`, and `Pure JS`.
 
 Click here to show the project : https://soham023.github.io/Elevator_Control/
 
